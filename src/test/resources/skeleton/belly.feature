@@ -1,6 +1,6 @@
-Feature: Belly
+Feature: Navigation
 
-  Scenario: a few cukes
-    Given I have 42 cukes in my belly
-    When I wait 1 hour
-    Then my belly should growl
+  Scenario: Navigation into universe landing page
+    Given I type in universe homepage
+    When I am not logged in
+    Then I navigate into the page
